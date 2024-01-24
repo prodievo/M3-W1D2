@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #161513;
+    margin: 0;
+}
+
+nav {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav--navlogo {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav--links {
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav--button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav--button-talk {
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.hero--img img {
+    border-radius: 50%;
+}
+
+.hero--title {
+    font-size: 50px;
+    width: 30%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.hero--description {
+    width: 33%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+
+.hero--button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hero--button button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.hero--button-primary {
+    background-color: white;
+}
+
+.hero--button-secondary {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.hero--title-gradient {
+    background-image: linear-gradient(45deg, #b16cea, #ff8b56);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trust {
+    display: flex;
+    color: white;
+    padding: 20px 100px;
+    align-items: center;
+    margin: 100px 0;
+    justify-content: space-between;
+    gap: 230px;
+}
+
+.trust--brands {
+width: 100%;
+}
+
+
+.trust--brands-img {
+    object-fit: cover;
+
+}
+
+
+.trust--text {
+    min-width: 30%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.slogan {
+    background-color: #1c1c22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 120px;
+}
+
+.slogan--title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.slogan--title h2 {
+    font-size: 50px;
+    margin: 0
+}
+
+.slogan--title-before {
+    position: relative;
+    padding-left: 55px;
+    margin-left: 60px;
+}
+
+.slogan--title-before:before {
+    content: "";
+    display: block;
+    border-top: 1px solid white;
+    width: 55px;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+
+.slogan--title-gradient {
+    background-image: linear-gradient(45deg, #b16cea, #ff8b56);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
