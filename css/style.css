@@ -109,7 +109,7 @@ nav {
 }
 
 .trust--brands {
-width: 100%;
+    width: 100%;
 }
 
 
@@ -129,7 +129,8 @@ width: 100%;
     background-color: #1c1c22;
     color: white;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
@@ -167,4 +168,28 @@ width: 100%;
     background-image: linear-gradient(45deg, #b16cea, #ff8b56);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.slogan--button button {
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.slogan--button-primary {
+    background-image: linear-gradient(45deg, #b16cea, #ff8b56);
+    color: white;
+}
+
+.slogan--button-secondary {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.slogan--button  {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
